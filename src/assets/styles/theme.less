@@ -1,0 +1,382 @@
+/**
+ * 下面部分根据交互新增可编译需求
+ * 自行增加样式
+ */
+.ant-menu-horizontal.ant-menu-light {
+  > .ant-menu-item-selected > a {
+    color: @primary-color;
+  }
+}
+
+.zv-workbench-wrap .layout-header {
+  background-color: @primary-color !important;
+}
+
+.zv-skin-handle-btn {
+  color: @primary-color;
+}
+
+/*
+ * 用于大字体
+ */
+html,
+body #app,
+input,
+textarea,
+button,
+a {
+  font-size: @font-size-base;
+}
+
+.ant-tabs-nav-container,
+.font_family {
+  font-size: @font-size-base;
+}
+
+.ant-menu,
+.ant-table {
+  font-size: @font-size-base;
+}
+
+.ant-menu-submenu .font_family {
+  font-size: @font-size-base + 2px;
+}
+
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+  font-size: @font-size-base;
+}
+
+.zv-font-14,
+.zv-font-15,
+.zv-font-16,
+.zv-font-17,
+.zv-font-18,
+.zv-font-19,
+.zv-font-20,
+.zv-font-21,
+.zv-font-22,
+.zv-font-23,
+.zv-font-24,
+.zv-font-25,
+.zv-font-26 {
+  line-height: 1.5;
+}
+
+.zv-font-14 {
+  font-size: @font-size-base;
+}
+
+.zv-font-15 {
+  font-size: @font-size-base + 1px;
+}
+
+.zv-font-16 {
+  font-size: @font-size-base + 2px;
+}
+
+.zv-font-17 {
+  font-size: @font-size-base + 3px;
+}
+
+.zv-font-18 {
+  font-size: @font-size-base + 4px;
+}
+
+.zv-font-19 {
+  font-size: @font-size-base + 5px;
+}
+
+.zv-font-20 {
+  font-size: @font-size-base + 6px;
+}
+
+.zv-font-21 {
+  font-size: @font-size-base + 7px;
+}
+
+.zv-font-22 {
+  font-size: @font-size-base + 8px;
+}
+
+.zv-font-23 {
+  font-size: @font-size-base + 9px;
+}
+
+.zv-font-24 {
+  font-size: @font-size-base + 10px;
+}
+
+.zv-font-25 {
+  font-size: @font-size-base + 11px;
+}
+
+.zv-font-26 {
+  font-size: @font-size-base + 12px;
+}
+
+/*
+ * 用于字体颜色
+ */
+.zv-font-color {
+  color: @primary-color;
+}
+
+.zv-border-color {
+  border-color: @primary-color;
+}
+
+.zv-bg-color {
+  background-color: @primary-color !important;
+}
+
+.zv-border-hover-color {
+  &:hover {
+    border-color: @primary-color !important;
+  }
+}
+
+// 分页器
+.ant-pagination-item-active:focus,
+.ant-pagination-item-active:hover {
+  border-color: @primary-color;
+  background: @primary-color;
+}
+
+.ant-pagination.mini .ant-pagination-next {
+  margin-right: 4px;
+}
+
+.ant-pagination.mini .ant-pagination-prev {
+  margin-right: 6px;
+
+  &:not(.ant-pagination-disabled):hover {
+    border: 1px solid @primary-color;
+  }
+}
+
+.ant-pagination-item-active {
+  background-color: @primary-color !important;
+}
+
+// 按钮
+.ant-btn-disabled,
+.ant-btn.disabled,
+.ant-btn[disabled],
+.ant-btn-disabled:hover,
+.ant-btn.disabled:hover,
+.ant-btn[disabled]:hover,
+.ant-btn-disabled:focus,
+.ant-btn.disabled:focus,
+.ant-btn[disabled]:focus,
+.ant-btn-disabled:active,
+.ant-btn.disabled:active,
+.ant-btn[disabled]:active,
+.ant-btn-disabled.active,
+.ant-btn.disabled.active,
+.ant-btn[disabled].active {
+  color: #333;
+  background: #fff;
+  border: 1px solid rgba(159, 160, 166, 0.5);
+}
+
+.ant-btn-primary-disabled,
+.ant-btn-primary.disabled,
+.ant-btn-primary[disabled],
+.ant-btn-primary-disabled:hover,
+.ant-btn-primary.disabled:hover,
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary-disabled:focus,
+.ant-btn-primary.disabled:focus,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary-disabled:active,
+.ant-btn-primary.disabled:active,
+.ant-btn-primary[disabled]:active,
+.ant-btn-primary-disabled.active,
+.ant-btn-primary.disabled.active,
+.ant-btn-primary[disabled].active {
+  color: #fff;
+  background: @primary-color;
+  border: none;
+}
+
+body {
+  .ant-radio-checked .ant-radio-inner {
+    background-color: @primary-color;
+  }
+
+  .ant-radio-wrapper:hover {
+    .ant-radio-inner {
+      border-color: @primary-color;
+    }
+  }
+}
+
+.contextmenu > .ant-menu-item {
+  &:hover {
+    color: @primary-color !important;
+  }
+}
+
+.ant-table-tbody > tr.ant-table-row-selected td,
+.ant-table-thead > tr:hover.ant-table-row-selected > td,
+.ant-table-tbody > tr:hover.ant-table-row-selected > td {
+  background: fade(@primary-color, 10%);
+}
+
+.ant-dropdown-menu-item {
+  &:hover {
+    color: #3296fa !important;
+  }
+}
+
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background: fade(#3296fa, 10%);
+}
+
+.userDrop {
+  .ant-dropdown-menu-item {
+    &:hover {
+      color: @primary-color !important;
+    }
+  }
+
+  .ant-dropdown-menu-item:hover,
+  .ant-dropdown-menu-submenu-title:hover {
+    background: fade(@primary-color, 10%);
+  }
+}
+
+.ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  color: @primary-color;
+  background: fade(@primary-color, 10%);
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: fade(@primary-color, 10%);
+}
+
+// 按钮
+.ant-btn {
+  background-color: var(--bg-color) !important;
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.ant-btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  background-color: var(--bg-color) !important;
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:active,
+.ant-btn-primary:focus {
+  color: #fff !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+// 弹窗
+.ant-modal-header {
+  background-color: var(--bg-color);
+  .ant-modal-title {
+    color: var(--text-color);
+  }
+}
+.ant-modal-content {
+  background-color: var(--aside-bg-color);
+  box-shadow: rgba(0,0,0,0.15) 0px 8px 20px;
+}
+.ant-form-item-label > label,
+.ant-modal-close {
+  color: var(--text-color);
+}
+
+// 输入框
+.ant-input {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-color: var(--primary-color) !important;
+}
+body .ant-input:hover,
+.ant-input:focus {
+  border-color: var(--primary-color) !important;
+}
+
+// tab
+.ant-tabs-nav .ant-tabs-tab {
+  color: var(--text-color);
+}
+.ant-tabs-nav .ant-tabs-tab:hover,
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: var(--primary-color);
+}
+.ant-tabs-ink-bar {
+  background-color: var(--primary-color);
+}
+
+// 表格
+body {
+  .ant-table {
+    color: var(--text-color);
+    .ant-table-thead
+      > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+      > td,
+    .ant-table-tbody
+      > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+      > td,
+    .ant-table-thead
+      > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+      > td,
+    .ant-table-tbody
+      > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+      > td {
+      background-color: var(--bg-color);
+    }
+  }
+  .ant-table-thead > tr > th {
+    background-color: var(--primary-color);
+    border-bottom: none;
+  }
+  .ant-table-thead > tr > th {
+    color: var(--text-color);
+  }
+}
+
+// 下拉框
+body .ant-select-selection {
+  background-color: var(--bg-color);
+  border-color: var(--primary-color);
+}
+body .ant-select-selection-selected-value,
+.ant-select-arrow {
+  color: var(--primary-color) !important;
+}
+.ant-select-selection:hover {
+  border-color: var(--primary-color) !important;
+}
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+  border-color: var(--primary-color) !important;
+}
+
+// 开关
+.ant-switch {
+  background-color: #666;
+}
+.ant-switch-checked {
+  background-color: var(--primary-color);
+}

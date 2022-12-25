@@ -1,0 +1,30 @@
+{
+  "id": "3825466",
+  "name": "低代码",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4354248",
+      "name": "图表-折线图",
+      "font_class": "tubiao-zhexiantu",
+      "unicode": "eb96",
+      "unicode_decimal": 60310
+    },
+    {
+      "icon_id": "10056249",
+      "name": "饼图统计",
+      "font_class": "bingtutongji",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "1546597",
+      "name": "图表",
+      "font_class": "tubiao",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    }
+  ]
+}

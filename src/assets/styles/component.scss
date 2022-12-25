@@ -1,0 +1,27 @@
+.right-form {
+  height: calc(100vh - 140px);
+  overflow-y: auto;
+  color: var(--text-color);
+
+  .title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .form-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .form-group, .form-group-block {
+    width: 48%;
+    margin-bottom: 16px;
+  }
+  .form-group-block {
+    width: 100%;
+  }
+  .form-item-flex {
+    display: flex;
+  }
+}
